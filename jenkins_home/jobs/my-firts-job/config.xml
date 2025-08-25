@@ -13,7 +13,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;Hello world from parallel workd&quot; &gt;&gt; hello.txt</command>
+      <command>/tmp/script.sh 1 6
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

@@ -1,0 +1,8 @@
+Started by user [8mha:////4GzLxdk83Kkvh3z4behJeYuI/xLGr3LfPFHotJxix35eAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-firts-job
+[my-firts-job] $ /bin/sh -xe /tmp/jenkins13358817711090530720.sh
++ /tmp/scripth.sh 1 6
+/tmp/jenkins13358817711090530720.sh: 2: /tmp/scripth.sh: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
