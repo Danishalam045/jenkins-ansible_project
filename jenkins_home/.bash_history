@@ -146,3 +146,16 @@ ls play.yml
 pwd
 ls
 exit
+clear
+pwd
+cd /var/
+ls
+cd /lib/
+ls
+cd ..
+cd run/
+;s
+ls
+cd ..
+cd ..
+exit
