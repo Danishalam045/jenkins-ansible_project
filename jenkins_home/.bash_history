@@ -159,3 +159,51 @@ ls
 cd ..
 cd ..
 exit
+ssh web
+clear
+cd ansible_venv/
+pwd
+cd
+cd ansible/
+ls
+clear
+ansible -m ping -i hosts web1
+clear
+ansible -m ping -i web1
+clear
+ansible -m ping -i hosts web1
+ansible -m ping -i hosts all
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+exit
+cd ansible_venv/
+cd
+cd ansible/
+ls
+clear
+ansible-playbook -i hosts people.yml 
+exit
+cd
+cd ansible/
+ls
+ansible-playbook -i hosts people.yml 
+clear
+ansible-playbook -i hosts people.yml 
+ansible-playbook -i hosts people.yml -e "PEOPLE_AGE=25"
+CLEAR
+clear
+exit
+clear
+cd ansible_venv/
+cd
+ansible
+clear
+cd ansible/
+ls
+pwd
+exit
