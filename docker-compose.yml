@@ -17,6 +17,17 @@ services:
     networks:
       - net
 
+  db_data:
+    image: mysql
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+    ports:
+      - "3306:3306"
+    volumes:
+      - $PWD/db_data:/var/lib/mysql
+    networks:
+      - net      
 networks:
   net:
 
