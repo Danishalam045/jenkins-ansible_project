@@ -104,3 +104,45 @@ ls
 clear
 cat script.sh cd ..
 exit
+ansible
+clear
+docker logs jenkins
+exi
+exit
+cd
+cd jenkins_home
+cd ansible/
+ls
+pwd
+clear
+exit
+cd
+pwd
+ping remote_host
+ansilbe -i hosts -m ping test1
+ansible
+clear
+cd ansible/
+ansible -i hosts -m ping test1
+clear
+ansible -i hosts -m ping test1
+clear
+ls
+exit
+cd
+ls
+clear
+pwd
+cd ansible/
+ls
+ansible-playbook -i hosts play.yml 
+exit
+clear
+cd
+cd ansible/
+ls
+pwd
+ls play.yml 
+pwd
+ls
+exit
