@@ -1,0 +1,7 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job_trigger_using_bash
+[job_trigger_using_bash] $ /bin/sh -xe /tmp/jenkins4150610647246485217.sh
++ echo Hellow world form Danish
+Hellow world form Danish
+Finished: SUCCESS
