@@ -1,0 +1,7 @@
+Started by user [8mha:////4GzLxdk83Kkvh3z4behJeYuI/xLGr3LfPFHotJxix35eAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job_trigger_using_bash
+[job_trigger_using_bash] $ /bin/sh -xe /tmp/jenkins13151724957169463382.sh
++ echo Hellow world form Danish
+Hellow world form Danish
+Finished: SUCCESS
