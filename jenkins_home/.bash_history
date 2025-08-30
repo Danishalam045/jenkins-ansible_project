@@ -207,3 +207,5 @@ cd ansible/
 ls
 pwd
 exit
+cat /etc/hosts
+exit

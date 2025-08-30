@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-08-29 07:52:25.910 UTC</timestamp>
+  <md5sum>ea4fdca853aec007f031483b6c201d52</md5sum>
+  <fileName>Credential id=86c3e433-fab2-4004-bfd2-9f81b766a0f6 name=danish/******</fileName>
+  <usages>
+    <entry>
+      <string>maven</string>
+      <ranges>1-4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
