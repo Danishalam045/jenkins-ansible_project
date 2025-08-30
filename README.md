@@ -1,5 +1,6 @@
 # simple-java-maven-app
 
+this is a test for the gitlab and jenkins CI/CD
 This repository is for the
 [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
