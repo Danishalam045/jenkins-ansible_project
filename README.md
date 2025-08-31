@@ -1,5 +1,6 @@
 # simple-java-maven-app
 
+
 Doing again again
 This is a test for the GitLab and Jenkins CI/CD – test purpose
 
