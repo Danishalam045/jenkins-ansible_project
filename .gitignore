@@ -1,0 +1,15 @@
+# Jenkins internal files
+jenkins_home/logs/
+jenkins_home/caches/
+jenkins_home/workspace/
+
+# Local secrets & databases
+creds
+db_data/
+*.key
+*.pem
+
+# OS files
+.DS_Store
+*.swp
+
