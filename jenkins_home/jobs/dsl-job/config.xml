@@ -40,6 +40,59 @@
     publishers {
         mailer(&apos;me@example.com&apos;, true, true)
     }
+}
+
+job(&apos;jenkins-ansible-db-dsl&apos;) {
+
+    description(&apos;ansible database users with dsl&apos;)
+
+
+    parameters {
+        choiceParam(&apos;AGE&apos;, [&apos;21&apos;, &apos;22&apos;, &apos;23&apos;,&apos;24&apos;,&apos;25&apos;])
+    }
+    steps {
+
+        wrappers {
+            colorizeOutput(colorMap = &apos;xterm&apos;)
+      }
+        ansiblePlaybook(&apos;/var/jenkins_home/ansible/people.yml&apos;) {
+            inventoryPath(&apos;/var/jenkins_home/ansible/hosts&apos;)
+            colorizedOutput(true)
+            extraVars {
+                extraVar(&quot;PEOPLE_AGE&quot;, &apos;${AGE}&apos;, true)
+            }
+        }
+    }
+}
+
+
+job(&apos;maven_dsl&apos;) {
+
+    description(&apos;Maven dsl project&apos;)
+
+    scm {
+        git(&apos;https://github.com/jenkins-docs/simple-java-maven-app&apos;, &apos;master&apos;, {node -&gt; node / &apos;extensions&apos; &lt;&lt; &apos;&apos; })
+    }
+
+    steps {
+        maven {
+            mavenInstallation(&apos;jenkins_maven&apos;)
+            goals(&apos;-B -DskipTests clean package&apos;)
+        }
+        maven {
+            mavenInstallation(&apos;jenkins_maven&apos;)
+            goals(&apos;test&apos;)
+        }
+        shell(&apos;&apos;&apos;
+            echo ************RUNNING THE JAR************************
+            java -jar /var/jenkins_home/workspace/maven_dsl/target/my-app-1.0-SNAPSHOT.jar
+        &apos;&apos;&apos;)
+    }
+
+    publishers {
+        archiveArtifacts(&apos;target/*.jar&apos;)
+        archiveJunit(&apos;target/surefire-reports/*.xml&apos;)
+    }
 }</scriptText>
       <usingScriptText>true</usingScriptText>
       <sandbox>false</sandbox>

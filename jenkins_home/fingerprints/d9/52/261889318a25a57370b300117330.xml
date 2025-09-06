@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-09-01 10:06:34.538 UTC</timestamp>
+  <md5sum>d952261889318a25a57370b300117330</md5sum>
+  <fileName>Credential id=TEST name=TEST</fileName>
+  <usages>
+    <entry>
+      <string>pipeline</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

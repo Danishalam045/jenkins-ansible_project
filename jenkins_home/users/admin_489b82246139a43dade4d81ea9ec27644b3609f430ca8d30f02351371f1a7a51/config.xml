@@ -30,7 +30,9 @@
       <providerId>default</providerId>
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
     <hudson.model.PaneStatusProperties>
-      <collapsed/>
+      <collapsed>
+        <string>executors</string>
+      </collapsed>
     </hudson.model.PaneStatusProperties>
     <jenkins.security.seed.UserSeedProperty>
       <seed>58b68b8f3e918ab4</seed>
@@ -52,12 +54,12 @@
       <tokenStore>
         <tokenList>
           <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
-            <uuid>627c008c-5439-4ec8-9f88-f626e6dbecd3</uuid>
-            <name>admin_jenkins_API_Token</name>
-            <creationDate>2025-08-27 18:42:49.294 UTC</creationDate>
+            <uuid>a198b662-c354-40b6-aaec-eca7c9335a94</uuid>
+            <name>admin-jenkins-apitoke-again</name>
+            <creationDate>2025-09-01 09:36:38.113 UTC</creationDate>
             <value>
               <version>11</version>
-              <hash>6f8160a151188cd0fa1e74ee725aa707e7e2b0a470f4c4f06addda8cf9d6a875</hash>
+              <hash>c85acfb0d5c5b4dfab9fe00380f2da9ae93fa9832e3e8e82043e37ab106e3926</hash>
             </value>
           </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
         </tokenList>

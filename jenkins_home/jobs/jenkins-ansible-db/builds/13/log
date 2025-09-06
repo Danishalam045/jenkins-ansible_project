@@ -1,0 +1,22 @@
+Started by user [8mha:////4GzLxdk83Kkvh3z4behJeYuI/xLGr3LfPFHotJxix35eAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jenkins-ansible-db
+[8mha:////4HHtjvoi7fp70BKmBJ+a/YbBfCL4L4LDhKdWNr2P927gAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFcNUw6SURJNk3dRkIwNdE2MLM92kRKNkXWOLNEOTJCPLNPMUcwDpaktorwAAAA==[0m[jenkins-ansible-db] $ ansible-playbook /var/jenkins_home/ansible/people.yml -i /var/jenkins_home/ansible/hosts -f 5 -e ********
+
+PLAY [web1] ********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host web1 is using the discovered Python
+interpreter at /usr/bin/python3.13, but future installation of another Python
+interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-
+core/2.18/reference_appendices/interpreter_discovery.html for more information.
+ok: [web1]
+
+TASK [Transfer template is web server] *****************************************
+changed: [web1]
+
+PLAY RECAP *********************************************************************
+web1                       : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

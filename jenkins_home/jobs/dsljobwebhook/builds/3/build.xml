@@ -1,0 +1,140 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.9.8">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>2</sourceProjectId>
+              <targetProjectId>2</targetProjectId>
+              <branch>main</branch>
+              <sourceBranch>main</sourceBranch>
+              <userName>danish</userName>
+              <userUsername>danish</userUsername>
+              <userEmail></userEmail>
+              <sourceRepoHomepage>http://gitlab.example.com/jenkins/dsl-jobs</sourceRepoHomepage>
+              <sourceRepoName>Dsl Jobs</sourceRepoName>
+              <sourceNamespace>jenkins</sourceNamespace>
+              <sourceRepoUrl>git@gitlab.example.com:jenkins/dsl-jobs.git</sourceRepoUrl>
+              <sourceRepoSshUrl>git@gitlab.example.com:jenkins/dsl-jobs.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>http://gitlab.example.com/jenkins/dsl-jobs.git</sourceRepoHttpUrl>
+              <mergeCommitSha></mergeCommitSha>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <mergeRequestLabels class="empty-list"/>
+              <targetBranch>main</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>danish</triggeredByUser>
+              <before>b3c48147de87cbaf4b41b02130717add8d99768d</before>
+              <after>a9f31516369de8a777795abb11950231d68d44a0</after>
+              <lastCommit>a9f31516369de8a777795abb11950231d68d44a0</lastCommit>
+              <targetProjectUrl>http://gitlab.example.com/jenkins/dsl-jobs</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <com.dabsquared.gitlabjenkins.action.BranchQueueAction plugin="gitlab-plugin@1.9.8">
+      <sourceBranch>main</sourceBranch>
+    </com.dabsquared.gitlabjenkins.action.BranchQueueAction>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@5.7.0">
+      <commit>remotes/origin/main</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@6.3.1">
+        <path>jenkins/dsl-jobs.git</path>
+        <rawPath>jenkins/dsl-jobs.git</rawPath>
+        <user>git</user>
+        <port>-1</port>
+        <host>gitlab.example.com</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.33-484.v2fcd689980d1">
+      <queuingDurationMillis>5363</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>15</buildableDurationMillis>
+      <waitingDurationMillis>5341</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1419.v2337d1ceceef">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@5.7.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@6.3.1">
+              <sha1>a9f31516369de8a777795abb11950231d68d44a0</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>3</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>http://git:80/jenkins/dsl-jobs.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <javaposse.jobdsl.plugin.actions.GeneratedJobsBuildAction plugin="job-dsl@1.93">
+      <modifiedObjects class="linked-hash-set">
+        <javaposse.jobdsl.dsl.GeneratedJob>
+          <jobName>job_dsl_example-webhook</jobName>
+        </javaposse.jobdsl.dsl.GeneratedJob>
+        <javaposse.jobdsl.dsl.GeneratedJob>
+          <jobName>jenkins-ansible-db-dsl</jobName>
+        </javaposse.jobdsl.dsl.GeneratedJob>
+        <javaposse.jobdsl.dsl.GeneratedJob>
+          <jobName>maven_dsl</jobName>
+        </javaposse.jobdsl.dsl.GeneratedJob>
+      </modifiedObjects>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.actions.GeneratedJobsBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedViewsBuildAction plugin="job-dsl@1.93">
+      <modifiedObjects class="linked-hash-set"/>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.actions.GeneratedViewsBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedConfigFilesBuildAction plugin="job-dsl@1.93">
+      <modifiedObjects class="linked-hash-set"/>
+    </javaposse.jobdsl.plugin.actions.GeneratedConfigFilesBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedUserContentsBuildAction plugin="job-dsl@1.93">
+      <modifiedObjects class="linked-hash-set"/>
+    </javaposse.jobdsl.plugin.actions.GeneratedUserContentsBuildAction>
+  </actions>
+  <queueId>8</queueId>
+  <timestamp>1756719636637</timestamp>
+  <startTime>1756719636659</startTime>
+  <result>SUCCESS</result>
+  <description>Started by GitLab push by danish</description>
+  <duration>3110</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/dsljobwebhook</workspace>
+  <hudsonVersion>2.524</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.7.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set">
+      <string>jenkins</string>
+    </c>
+  </culprits>
+</build>

@@ -9,10 +9,24 @@
   </templateJobMap>
   <generatedJobMap class="concurrent-hash-map">
     <entry>
-      <string>job_dsl_example</string>
+      <string>maven_dsl</string>
       <javaposse.jobdsl.plugin.SeedReference>
-        <seedJobName>dsl-job</seedJobName>
+        <seedJobName>dsljobwebhook</seedJobName>
+        <digest>3113eb0a9e7a1d82c7c49d8b6a2357ea</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>job_dsl_example-webhook</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>dsljobwebhook</seedJobName>
         <digest>c30a8e4fbd68be8da35818aa498dbdbb</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>jenkins-ansible-db-dsl</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>dsljobwebhook</seedJobName>
+        <digest>5a69dd68903d2c337189a75ee381c8f4</digest>
       </javaposse.jobdsl.plugin.SeedReference>
     </entry>
   </generatedJobMap>

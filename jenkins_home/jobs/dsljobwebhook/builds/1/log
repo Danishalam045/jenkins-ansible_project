@@ -1,0 +1,32 @@
+Started by GitLab push by Administrator
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/dsljobwebhook
+The recommended git tool is: NONE
+using credential 86c3e433-fab2-4004-bfd2-9f81b766a0f6
+Cloning the remote Git repository
+Cloning repository http://git:80/jenkins/dsl-jobs.git
+ > git init /var/jenkins_home/workspace/dsljobwebhook # timeout=10
+Fetching upstream changes from http://git:80/jenkins/dsl-jobs.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://git:80/jenkins/dsl-jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://git:80/jenkins/dsl-jobs.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+skipping resolution of commit remotes/origin/main, since it originates from another repository
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision b3c48147de87cbaf4b41b02130717add8d99768d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b3c48147de87cbaf4b41b02130717add8d99768d # timeout=10
+Commit message: "initialized the project"
+First time build. Skipping changelog.
+[dsljobwebhook] $ /bin/sh -xe /tmp/jenkins6432494414592460619.sh
++ echo gitlab webhook triggered
+gitlab webhook triggered
+Processing DSL script job
+Added items:
+    GeneratedJob{name='maven_dsl'}
+    GeneratedJob{name='job_dsl_example'}
+    GeneratedJob{name='jenkins-ansible-db-dsl'}
+Finished: SUCCESS

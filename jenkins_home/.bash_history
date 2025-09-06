@@ -209,3 +209,31 @@ pwd
 exit
 cat /etc/hosts
 exit
+docker ps
+clear
+sudo docker ps
+clear
+exit
+clear
+ll -a
+ll -a
+ll
+ls
+ls -a
+ll
+id
+clear
+exit
+docker ps
+clear
+docker image ls
+clear
+exit
+exit
+clear
+cat /opt/prod 
+clear
+ssh -i /opt/prod roshi@192.168.165.65
+ssh -i /opt/prod roshi@192.168.165.65
+clear
+exit

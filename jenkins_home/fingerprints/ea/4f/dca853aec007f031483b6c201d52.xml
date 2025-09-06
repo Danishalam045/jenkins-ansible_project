@@ -5,9 +5,23 @@
   <fileName>Credential id=86c3e433-fab2-4004-bfd2-9f81b766a0f6 name=danish/******</fileName>
   <usages>
     <entry>
+      <string>dsljobwebhook</string>
+      <ranges>1-3</ranges>
+    </entry>
+    <entry>
       <string>maven</string>
-      <ranges>1-4</ranges>
+      <ranges>1-4,7</ranges>
+    </entry>
+    <entry>
+      <string>pipeline-docker-maven</string>
+      <ranges>1-9</ranges>
     </entry>
   </usages>
-  <facets/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1419.v2337d1ceceef">
+      <timestamp>1756986556479</timestamp>
+      <itemFullName>pipeline-docker-maven</itemFullName>
+      <timestamp0>1756906727170</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
 </fingerprint>

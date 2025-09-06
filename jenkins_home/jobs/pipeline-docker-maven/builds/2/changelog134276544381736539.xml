@@ -1,0 +1,10 @@
+commit 2b6f6cc46f4fe402858f3b8b19422e7b5f0a4648
+tree 0444b0762d62565ace880eb9484a1f585d7c8e32
+parent 4ce953fc13d3ca19e19c309dcec7c2fe399cdd60
+author jenkins <jenkins@localhost.localdomain> 2025-09-03 18:05:06 +0530
+committer jenkins <jenkins@localhost.localdomain> 2025-09-03 18:05:06 +0530
+
+    fixing the path for the docker
+
+
+:100755 100755 74a17fc219b3c276daf31b12bcf8a12aba9f0ae4 9760a396a799aa4b2d1a4f333684211a4d1313f5 M	jenkins/build/mvn.sh
